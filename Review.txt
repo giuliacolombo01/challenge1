@@ -1,0 +1,18 @@
+Readme is a bit poor.
+  - Use sections to divide several information:
+      - what your code is about
+      - how to compile your code
+      - how to run some tests
+
+Also, I don't see many commits from the github...
+
+Please instead of telling the user where to modify the lines of code, parametrize the input..
+
+Makefile: 
+      - in your makefile you are including a non-existing folder.
+      - If you are using C++ use CXX instead of CC for the compiler
+
+Code Design:
+  code should have had its own classes, or everything should be on one file (discouraged anyway). For sure, not a mix, where you have a Point.hpp and many functions inside the main.cpp.
+  - the pow method should be changed when evaluating integer powers since they are very slow.
+  - no getpot, nor json, nor muparser.
